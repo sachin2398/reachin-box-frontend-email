@@ -1,0 +1,68 @@
+.nav-main-email-top{
+    display: flex;
+    width: Fixed (1, 384px)px;
+        height: 68px;
+     
+        padding-left: 24px;
+        padding-right: 24px;
+        gap: 24px;
+    
+        opacity: 0px;
+        background: rgba(255, 255, 255, 1);
+        border-width: 1px, 1px, 1px, 0px;
+        
+            border-style: solid;
+        
+            border-color: rgba(222, 222, 222, 1);
+            justify-content: space-between;
+            align-items: center;
+         
+            color: rgba(91, 95, 102, 1);
+}
+.mail-logo-hm{
+    width: 26px;
+        height: 24px;
+        gap: 0px;
+        border-radius: 2px;
+        opacity: 0px;
+}
+.left-side-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+.left-side-nav>p{
+width: 127px;
+    height: 22px;
+    font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21.79px;
+        text-align: left;
+}
+.roght-side{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:10px;
+}
+.roght-side>p{
+    width: 113px;
+        height: 22px;
+    font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 21.7px;
+        text-align: left;
+        color: rgba(69, 79, 91, 1);
+}
+.nav-main-email-top.dark-theme {
+    background: black;
+    color: white;
+    border-color: black;
+}
+
+.roght-side.dark-theme p {
+    color: white;
+}
