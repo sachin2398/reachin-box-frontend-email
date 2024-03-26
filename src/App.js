@@ -9,7 +9,7 @@ function App() {
     <Routes>
       
       <Route path='/' element={<Login />} />
-      <Route path='/email' element={ <MainEmailPage/>} />
+      <Route path='/user' element={ <MainEmailPage/>} />
    </Routes>
    
   

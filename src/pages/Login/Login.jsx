@@ -4,11 +4,14 @@ import googleLogo from '../../Assets/google-logo-9808.png';
 import {signInWithPopup } from "firebase/auth";
 import "./Login.css";
 import { auth, googleProvider } from '../../firebase/FirebaseSetup';
+import { useNavigate} from 'react-router-dom';
 const Login = () => {
+  const history = useNavigate();
   const googleSignin = async () => {
     try {
    
-       await signInWithPopup(auth,googleProvider);
+      await signInWithPopup(auth, googleProvider);
+      history("/user");
     } catch (error) {
       console.log(error);
     }

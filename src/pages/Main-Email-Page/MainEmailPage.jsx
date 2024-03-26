@@ -17,7 +17,7 @@ const MainEmailPage = () => {
           <LeftSlide />
           
         </Grid>
-        <Grid item xs={2} style={{ border: "2px solid red" }}>
+        <Grid item xs={2}>
          <LeftSlideSecond />
         </Grid>
         <Grid item xs={7.4} style={{ border: "2px solid green" }}>
